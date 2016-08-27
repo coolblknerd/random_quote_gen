@@ -1,0 +1,25 @@
+body {
+  background-color: white;
+}
+
+#quote-box {
+  position: fixed;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 15px 10px;
+  width: em;
+  height: 18em;
+  border: 1px solid black;
+}
+#quote-box #getQuote {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+#quote-box #twitter {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
